@@ -31,19 +31,25 @@ main {
   padding: 0 5% 200px;
 }
 
-section {
+.section1,
+.section2 {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: darkslateblue
+  margin-top: 20px;
+}
+.section1 {
+  background-color: darkslateblue;
+}
+.section2 {
+  background-color: #6cace4;
 }
 
 .text-area {
   color: white;
   width: 50%;
   font-family: "Freeman";
-  padding: 10px 80px;
+  padding: 20px 80px;
 }
 
 .img-area {
@@ -51,6 +57,16 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 80px;
+}
+
+.stats {
+  color: white;
+  width: 50%;
+  font-family: "Freeman";
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
   padding: 20px 80px;
 }
 
