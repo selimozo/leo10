@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #6cace4;
+  color: white;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: "Jaro";
+}
+
+.yellow {
+  color: #ffb81c;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+main {
+  margin-top: 100px;
+  padding: 0 5% 200px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslateblue
+}
+
+.text-area {
+  color: white;
+  width: 50%;
+  font-family: "Freeman";
+  padding: 10px 80px;
+}
+
+.img-area {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jaro";
+  font-size: 30px;
+  font-weight: 100;
+}
